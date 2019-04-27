@@ -23,7 +23,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	color: #FEFCFA;
 	text-decoration: none;
 	font-size: 30px;
-	font-family: 'shopping_script_demoregular';
+	font-family: 'Alegreya Sans', sans-serif;
+    font-style: normal;
 	font-weight: 900;
     font-style: normal;
 	/*CSS transitions*/
@@ -40,7 +41,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 h1 {
 	position: relative;
-	top: 50%;
+	top: 45%;
 	left: 24%;
 	font-size: 110px;
 	font-family: 'shopping_script_demoregular';
@@ -67,6 +68,21 @@ h1 {
 	margin: 2%;
 }
 
+section {
+	width: 100%;
+}
+
+img { 
+	width: 100%;
+ }
+
+ h2 {
+	color: #58595b;
+	font-family: 'Alegreya Sans', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+ }
+
 p {
 	display: flex;
 	justify-content: left;
@@ -79,5 +95,5 @@ p {
 footer {
 	background-color: #58595b;
 	width: 100%;
-	height: 30em;
+	height: 20em;
 }
