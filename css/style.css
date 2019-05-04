@@ -36,7 +36,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 #navbar:hover {
-	color: #FF7061;
+	color: #52FFE3;
 }
 
 h1 {
@@ -63,18 +63,8 @@ h2 {
  }
 
  h2#aboutPage {
- 	position: relative;
     left: 5em;
- }
-
- #aboutPage {
- 	color: #58595b;
-	font-family: 'Alegreya Sans', sans-serif;
-    font-style: normal;
-    font-size: 25px;
-    height: 60px;
-    position: relative;
- }
+}
 
 #container {
 	display: flex;
@@ -138,10 +128,11 @@ p.about {
     flex-direction: row-reverse;
 }
 
-.fab {
-	font-size: 3em;
+.fab, .far {
+	font-size: 2.5em;
 	color: #FEFCFA;
 	margin-top: 2em;
+	padding: 10px;
 }
 
 #abtHeroImage {
