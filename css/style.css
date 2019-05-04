@@ -62,6 +62,11 @@ h2 {
     width: 7em;
  }
 
+ h2#aboutPage {
+ 	position: relative;
+    left: 5em;
+ }
+
  #aboutPage {
  	color: #58595b;
 	font-family: 'Alegreya Sans', sans-serif;
@@ -99,11 +104,10 @@ section {
 }
 
 #imageContainer {
-	width: 30em;
-	float: right;
+	width: 60em;
 	position: relative;
-	top: 10em;
-    right: 5em;
+	margin-top: 10%;
+	margin-right: 14%;
 }
 
 img { 
@@ -118,6 +122,20 @@ p {
     font-style: normal;
     font-size: 20px;
     width: 55%;
+}
+
+p.about {
+	margin-left: 18%;
+}
+
+#paraCont {
+	margin-top: 10%;
+}
+
+#content {
+	margin-bottom: 15%;
+	display: flex;
+    flex-direction: row-reverse;
 }
 
 .fab {
