@@ -62,7 +62,13 @@ h2 {
     width: 7em;
  }
 
- h2#aboutPage {
+ h3#aboutPage {
+ 	color: #58595b;
+	font-family: 'Alegreya Sans', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    height: 60px;
+    position: relative;
     left: 5em;
 }
 
