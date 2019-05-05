@@ -62,7 +62,7 @@ h2 {
     width: 7em;
  }
 
- h3#aboutPage {
+ h3 {
  	color: #58595b;
 	font-family: 'Alegreya Sans', sans-serif;
     font-style: normal;
@@ -83,6 +83,9 @@ h2 {
 
 #art {
 	width: 250px;
+}
+
+.artLink {
 	margin: 2%;
 }
 
@@ -90,16 +93,17 @@ h2 {
 	#art {
 		width: 85%;
 		margin: 0 auto;
+		padding-top: 2em;
 	}
 }
 
 section {
 	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
-	width: 100%;
+	width: 85%;
 	padding-top: 5em;
 	padding-bottom: 5em;
+	margin: 0 auto;
 }
 
 img { 
@@ -118,6 +122,13 @@ p {
 	position: relative;
 	margin: 0 auto;
 	width: 400px;
+	padding-top: 5em;
+}
+
+#artContainer {
+	position: relative;
+	margin: 0 auto;
+	width: 600px;
 	padding-top: 5em;
 }
 
