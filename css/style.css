@@ -43,7 +43,7 @@ h1 {
 	position: relative;
 	top: 45%;
 	left: 24%;
-	font-size: 110px;
+	font-size: 6em;
 	font-family: 'shopping_script_demoregular';
 	font-weight: 900;
     font-style: normal;
@@ -57,7 +57,6 @@ h2 {
     font-size: 25px;
     height: 60px;
     position: relative;
-    left: 8em;
     bottom: 2em;
     width: 7em;
  }
@@ -73,8 +72,6 @@ h2 {
 #container {
 	display: flex;
 	flex-wrap: wrap;
-	/*justify-content: center;
-	align-items: center;*/
 	background-color: #FEFCFA;
 	height: 100%;
 	padding-top: 10%;
@@ -100,10 +97,11 @@ h2 {
 section {
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: flex-end;
+	text-align: center;
 	width: 85%;
 	padding-top: 5em;
 	padding-bottom: 5em;
-	margin: 0 auto;
 }
 
 img { 
